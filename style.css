@@ -1,0 +1,26 @@
+body{
+    margin: 0%;
+    font-family: sans-serif;
+
+}
+.cookie{
+    background-color:#000000cc;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    bottom: -100%;
+}
+
+.cookie.active{
+    bottom: 0%;
+}
+.cookie p{
+    font-size: 25px;
+    color: whitesmoke;
+}
+.btn{
+    padding: 10px 40px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+}
